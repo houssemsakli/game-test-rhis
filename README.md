@@ -1,14 +1,19 @@
-Backend:
-cd backend
-./mvnw spring-boot:run
+## Environment
+- Java 21
+- Maven
+- Angular 20
+- Node 24.4
+
+## Backend:
+mvnw spring-boot:run
 (http://localhost:8080)
 
-Frontend:
+## Frontend:
 npm install
 ng serve --open
 (http://localhost:4200)
 
-Usage:
+## Usage:
 - Register two users (open incognito windows)
 - Login both, open lobby, invite one another
 - Accept invite -> a game created notification
